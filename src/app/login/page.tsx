@@ -6,7 +6,7 @@ import { useFeedback } from "../../context/FeedbackContext";
 
 export default function LoginPage() {
   const { login } = useAuth();
-  const { feedback, setFeedback, clearFeedback } = useFeedback();
+  const { setFeedback, clearFeedback } = useFeedback();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -71,4 +71,4 @@ export default function LoginPage() {
       </div>
     </div>
   );
-} 
+}
