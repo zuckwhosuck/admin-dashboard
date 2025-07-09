@@ -34,17 +34,7 @@ export default function LoginPage() {
           
         </div>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-          {feedback.message && (
-            <div
-              className={`p-2 rounded text-center mb-2 text-sm font-medium ${
-                feedback.type === "error"
-                  ? "bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-200"
-                  : "bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-200"
-              }`}
-            >
-              {feedback.message}
-            </div>
-          )}
+      
           <div className="flex flex-col gap-1">
             <label htmlFor="username" className="text-gray-700 dark:text-gray-200 font-semibold">Username</label>
             <input

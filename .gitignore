@@ -1,0 +1,31 @@
+# Node.js modules
+/node_modules
+
+# Build files
+/dist
+/build
+
+# Logs
+*.log
+*.DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Next.js cache
+.next
+
+# Yarn
+.yarn
+.pnp
+.pnp.meta.js
+
+# Coverage reports
+/coverage
+
+# Temporary files
+*~
+\#*
+*.swp
